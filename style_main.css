@@ -209,6 +209,7 @@ ul {
 }
 
 .div-follow-description {
+  height: 384px;
   display: flex;
   justify-content: flex-end;
   align-items: start;
@@ -243,5 +244,69 @@ ul {
   font-size: 18px;
   font-weight: 500;
   line-height: 21.09px;
+  color: rgb(54, 54, 54);
+}
+
+.partners-p {
+  font-family: "Cormorant Garamond";
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 77.5px;
+  font-style: italic;
+  text-align: center;
+}
+
+.partners-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 -15px;
+  margin-left: 5px;
+}
+
+.partners-img {
+  margin: 0 15px;
+}
+
+.delivery-p {
+  font-family: "Roboto Condensed";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.81px;
+  color: rgb(54, 54, 54);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+footer {
+  height: 100%;
+  margin-top: 50px;
+  padding-top: 50px;
+  background-color: rgba(210, 226, 220, 0.5);
+}
+
+.footer-p-light {
+  font-weight: 300 !important;
+  line-height: 22px !important;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-div-mini {
+  display: flex;
+  justify-content: flex-start;
+  align-self: start;
+  flex-direction: column;
+}
+
+.footer-div-mini-p {
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.44px;
   color: rgb(54, 54, 54);
 }/*# sourceMappingURL=style_main.css.map */
