@@ -2,6 +2,19 @@ $Roboto: "Roboto Condensed";
 $Cormorant: "Cormorant Garamond";
 
 ///////// СТИЛИ ДЛЯ ШАПКИ
+
+a {
+  text-decoration: none;
+  
+}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color: #666;
+}
+
 header {
   height: 149px;
 
@@ -12,6 +25,10 @@ header {
 
 li {
   cursor: pointer;
+}
+
+li:hover {
+  opacity: 0.5;
 }
 
 .header-div {
