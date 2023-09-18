@@ -1,0 +1,81 @@
+.main-h1 {
+  font-family: "Cormorant Garamond";
+  font-weight: 300;
+  font-size: 64px;
+  font-style: italic;
+  line-height: 77.5px;
+  text-align: center;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.reviews-p {
+  margin-left: 10px;
+}
+
+.reviews-style {
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.09px;
+}
+
+.reviews-button {
+  color: black;
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.09px;
+  border: 1px solid black;
+  width: 140px;
+}
+
+.div-input {
+  width: 100%;
+  height: 519px;
+  background-color: rgba(167, 147, 133, 0.1);
+  margin-top: 100px;
+  margin-bottom: -50px;
+  padding-top: 50px;
+}
+
+.div-reviews-input {
+  width: 552px;
+  height: 62px;
+  color: rgb(196, 196, 196);
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.44px;
+  padding-left: 20px;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 0;
+}
+
+.div-reviews-input:focus {
+  color: rgb(54, 54, 54);
+}
+
+.div-reviews-textarea {
+  width: 1178px;
+  height: 175px;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.text {
+  font-size: 20px;
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  line-height: 23.44px;
+}/*# sourceMappingURL=style_reviews.css.map */
